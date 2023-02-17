@@ -1,0 +1,57 @@
+{
+  "parent": "minecraft:nether/all_potions",
+  "display": {
+    "icon": {
+      "item": "minecraft:bucket"
+    },
+    "title": {
+      "translate": "advancements.nether.all_effects.title"
+    },
+    "description": {
+      "translate": "advancements.nether.all_effects.description"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "rewards": {
+    "experience": 1000
+  },
+  "criteria": {
+    "all_effects": {
+      "trigger": "minecraft:effects_changed",
+      "conditions": {
+        "effects": {
+          "minecraft:regeneration": {},
+          "minecraft:absorption": {},
+          "minecraft:speed": {},
+          "minecraft:conduit_power": {},
+          "minecraft:night_vision": {},
+          "minecraft:strength": {},
+          "minecraft:slowness": {},
+          "minecraft:glowing": {},
+          "minecraft:resistance": {},
+          "minecraft:fire_resistance": {},
+          "minecraft:haste": {},
+          "minecraft:hunger": {},
+          "minecraft:nausea": {},
+          "minecraft:poison": {},
+          "minecraft:wither": {},
+          "minecraft:mining_fatigue": {},
+          "minecraft:weakness": {},
+          "minecraft:invisibility": {},
+          "minecraft:levitation": {},
+          "minecraft:jump_boost": {},
+          "minecraft:water_breathing": {},
+          "minecraft:slow_falling": {}
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "all_effects"
+    ]
+  ]
+}
