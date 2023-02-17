@@ -1,0 +1,48 @@
+{
+  "parent": "minecraft:nether/brew_potion",
+  "display": {
+    "icon": {
+      "item": "minecraft:milk_bucket"
+    },
+    "title": {
+      "translate": "advancements.nether.all_potions.title"
+    },
+    "description": {
+      "translate": "advancements.nether.all_potions.description"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "rewards": {
+    "experience": 100
+  },
+  "criteria": {
+    "all_effects": {
+      "trigger": "minecraft:effects_changed",
+      "conditions": {
+        "effects": {
+          "minecraft:poison": {},
+          "minecraft:jump_boost": {},
+          "minecraft:resistance": {},
+          "minecraft:water_breathing": {},
+          "minecraft:speed": {},
+          "minecraft:night_vision": {},
+          "minecraft:slowness": {},
+          "minecraft:regeneration": {},
+          "minecraft:strength": {},
+          "minecraft:weakness": {},
+          "minecraft:fire_resistance": {},
+          "minecraft:invisibility": {},
+          "minecraft:slow_falling": {}
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "all_effects"
+    ]
+  ]
+}
