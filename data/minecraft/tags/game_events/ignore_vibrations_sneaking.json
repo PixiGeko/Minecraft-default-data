@@ -1,0 +1,8 @@
+{
+  "values": [
+    "minecraft:hit_ground",
+    "minecraft:projectile_shoot",
+    "minecraft:step",
+    "minecraft:swim"
+  ]
+}
